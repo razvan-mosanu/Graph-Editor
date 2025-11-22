@@ -1,6 +1,6 @@
-# Graph Editor Pro
+# Graph Editor
 
-**Graph Editor Pro** is a comprehensive web-based application for creating, visualizing, and manipulating graph structures. Designed as an educational tool, it allows users to experiment with graph theory concepts directly in the browser.
+**Graph Editor** is a comprehensive web-based application for creating, visualizing, and manipulating graph structures. Designed as an educational tool, it allows users to experiment with graph theory concepts directly in the browser.
 
 > **Project Type:** Professional Certification in Informatics (Atestat Profesional)  
 > **Student:** Moșanu Răzvan Alexandru  
