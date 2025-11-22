@@ -1,6 +1,6 @@
-# Graph Editor
+# Graph Editor Pro
 
-**Graph Editor** is a web-based application designed to facilitate the visual interaction with graph structures (nodes and edges) directly in the browser. It serves as an educational tool for understanding fundamental algorithms and network architectures.
+**Graph Editor Pro** is a comprehensive web-based application for creating, visualizing, and manipulating graph structures. Designed as an educational tool, it allows users to experiment with graph theory concepts directly in the browser.
 
 > **Project Type:** Professional Certification in Informatics (Atestat Profesional)  
 > **Student:** Moșanu Răzvan Alexandru  
@@ -8,52 +8,53 @@
 > **Institution:** Liceul Teoretic „Emil Racoviță” Vaslui  
 > **Year:** 2025
 
-![Graph Editor Screenshot](path/to/your/screenshot.png) 
-*(Note: Upload a screenshot to your repo and update the path above)*
+## 🌟 Key Features
 
-## 🌟 Features
+This application has been upgraded with professional features to ensure a smooth workflow:
 
-Based on the project documentation, the application includes the following capabilities:
+### 🛠️ Graph Manipulation
+* **Interactive Canvas:** Click to add nodes, click-and-drag to move them.
+* **Smart Connections:** Click a source node (highlighted orange) then a target node to create an edge.
+* **Directed/Undirected:** Toggle between directed edges (arrows) and undirected edges (lines) instantly.
+* **Custom Indexing:** Choose to start node indexing from `0` or `1`.
+* **Responsive Design:** The drawing canvas automatically resizes to fit your screen or window.
 
-* **Interactive Canvas:** A fixed 800x600 drawing area using HTML5 Canvas.
-* **Graph Types:** Toggle between **Directed** (arrows) and **Undirected** (lines) graphs.
-* **Node Operations:**
-    * Add nodes manually by clicking on the canvas.
-    * Add nodes automatically in a grid layout.
-    * Drag and drop functionality to rearrange nodes.
-    * Customizable indexing start (0 or 1).
-* **Edge Operations:**
-    * Connect nodes visually (click Source -> click Target).
-    * Add edges programmatically via input fields.
-    * Validation to prevent self-loops and duplicate edges.
-* **Management:**
-    * **Delete Mode:** Remove specific nodes or edges by clicking them.
-    * **Clear All:** Reset the entire workspace.
-    * **Export:** Download the current graph visualization as a `.png` file.
+### 🚀 Advanced Tools
+* **Undo / Redo System:** A robust history system that remembers every action (node additions, movements, edge creation). You can safely step back and forth through your changes.
+* **Adjacency Matrix:** Automatically generates a real-time `0/1` matrix table below the canvas representing the graph's connections (optimized for up to 20 nodes).
+* **Save & Load Projects:**
+    * **Export JSON:** Save your graph structure (nodes, edges, positions) to a `.json` file to continue working later.
+    * **Import JSON:** Reload a previously saved project instantly.
+    * **Save PNG:** Export the current visual representation of the graph as an image.
 
-## 🛠️ Technologies Used
-
-* **HTML5:** Structure and layout.
-* **CSS3:** Styling and user interface responsiveness.
-* **JavaScript (ES6):** Logic, state management, and Canvas API rendering.
-
-## 🚀 How to Run
-
-This is a static web application (Client-Side only).
-
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/your-username/graph-editor.git](https://github.com/your-username/graph-editor.git)
-    ```
-2.  **Open the application:**
-    Simply locate the `Graph Editor.html` file in the folder and double-click it to open it in any modern web browser (Chrome, Firefox, Edge).
+## 💻 Tech Stack
+* **HTML5 Canvas:** For high-performance rendering of nodes and edges.
+* **Vanilla JavaScript (ES6):** Core logic, state management, and DOM manipulation (no external libraries required).
+* **CSS3:** Modern, responsive styling using Flexbox.
 
 ## 📖 Usage Guide
 
-1.  **Add Nodes:** Click anywhere on the white canvas to place a node.
-2.  **Connect Nodes:** Click on a node (it turns orange), then click on another node to create a connection.
-3.  **Toggle Mode:** Use the "Edges: Directed" button to switch arrow styles.
-4.  **Save:** Click "Download as PNG" to save your work.
+1.  **Adding Nodes:** Click anywhere on the white canvas or use the "Add Node" button for a grid layout.
+2.  **Creating Edges:**
+    * Click the **Source Node** (it turns Orange).
+    * Click the **Target Node**.
+    * *Note: To cancel a selection, click the source node again.*
+3.  **Moving Nodes:** Simply drag and drop nodes to rearrange the graph. The edges will follow automatically.
+4.  **Deleting Items:**
+    * Click the **Delete Mode** button (it turns Red).
+    * Click on any Node or Edge to remove it.
+    * *Tip: Click "Delete Mode" again to return to editing.*
+5.  **History:** Use the **Undo** and **Redo** buttons to correct mistakes.
+
+## 🚀 How to Run (No Installation)
+
+You can access the live version of this project directly via GitHub Pages:
+
+[**🔗 Click here to open Graph Editor**](https://razvan-mosanu.github.io/Graph-Editor/)
+
+### Running Locally
+1.  Clone this repository.
+2.  Open `index.html` in any modern web browser (Chrome, Firefox, Edge).
 
 ---
-*This project was developed to demonstrate the practical application of web technologies in modeling complex data structures.*
+*This project demonstrates the practical application of web technologies in modeling complex data structures.*
